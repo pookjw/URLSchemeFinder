@@ -1,4 +1,4 @@
-![Image](https://farm6.staticflickr.com/5640/21444801493_e34e291eb8_o.png)
+![Image](https://farm1.staticflickr.com/713/22041429346_388c636a84_o.png)
 
 # URLSchemeFinder
 Finds URL Scheme of iOS app easily from IPA. Requires OS X.
