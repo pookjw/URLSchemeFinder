@@ -7,6 +7,10 @@ Usage : `./URLSchemeFinder.sh [file]`
 
 # Troubleshooting
 
-- Permission denied error
+- **Permission denied** error
 
  Try `chmod +x ./URLSchemeFinder.sh` command and relaunch.
+
+- **replace /tmp/URLSchemeFinder/Info.plist?** error
+
+ Enter `n`.
