@@ -1,8 +1,8 @@
 #!/bin/sh
-# URLSchemeFinder-v1 - @pookjw, kidjinwoo@me.com, https://github.com/pookjw/URLSchemeFinder
+# URLSchemeFinder-v2 - @pookjw, kidjinwoo@me.com, https://github.com/pookjw/URLSchemeFinder
 if [[ -z "${1}" ]]; then
-	echo "[file] is empty."
-	echo "./URLSchemeFinder.sh [file]"
+	echo "[IPA] is empty."
+	echo "./URLSchemeFinder.sh [IPA]"
 	exit 1
 fi
 if [[ ! -f "${1}" ]]; then
@@ -15,7 +15,7 @@ fi
 mkdir /tmp/URLSchemeFinder
 unzip -j "${1}" Payload/*.app/Info.plist -d /tmp/URLSchemeFinder
 if [[ ! -f /tmp/URLSchemeFinder/Info.plist ]]; then
-	echo "ERROR!"
+	echo "ERROR! (Invalid IPA)"
 	rm -rf /tmp/URLSchemeFinder
 	exit 1
 fi
