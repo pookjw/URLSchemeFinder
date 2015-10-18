@@ -12,4 +12,5 @@ Usage : `./URLSchemeFinder.sh [APP | IPA]`
  Try `chmod +x ./URLSchemeFinder.sh` command and relaunch.
 
 - **The domain/default pair of (/tmp/URLSchemeFinder/Info.plist, CFBundleURLTypes) does not exist** error
+
  That error means URL Schemes doesn't exist. Try another app.
