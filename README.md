@@ -1,9 +1,9 @@
-![Image](https://farm1.staticflickr.com/713/22041429346_388c636a84_o.png)
+![Image](https://farm6.staticflickr.com/5790/22082800728_6a90dff5e4_o.png)
 
 # URLSchemeFinder
-Finds URL Scheme of iOS app easily from IPA. Requires OS X.
+Finds URL Schemes of iOS app easily from APP or IPA. Requires OS X.
 
-Usage : `./URLSchemeFinder.sh [IPA]`
+Usage : `./URLSchemeFinder.sh [APP | IPA]`
 
 # Troubleshooting
 
@@ -11,6 +11,5 @@ Usage : `./URLSchemeFinder.sh [IPA]`
 
  Try `chmod +x ./URLSchemeFinder.sh` command and relaunch.
 
-- **replace /tmp/URLSchemeFinder/Info.plist?** error
-
- Enter `n`.
+- **The domain/default pair of (/tmp/URLSchemeFinder/Info.plist, CFBundleURLTypes) does not exist** error
+ That error means URL Schemes doesn't exist. Try another app.
