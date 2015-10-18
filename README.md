@@ -13,4 +13,4 @@ Usage : `./URLSchemeFinder.sh [APP | IPA]`
 
 - **The domain/default pair of (/tmp/URLSchemeFinder/Info.plist, CFBundleURLTypes) does not exist** error
 
- That error means URL Schemes doesn't exist. Try another app.
+ That error means URL Scheme doesn't exist. Try another app.
